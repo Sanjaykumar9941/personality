@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's find something for you to do ✌️</h1>
+        <form action="/submit" method="post" class="buttons">
+        <button type="submit" class="form-submit"><span>GO For Random Search </span></button>
+    </form name="advice">
+    <div class="output">
+        <%if (locals.data) {%>
+  
+            <h2 id="tag-slip" class="advice">
+              <%=  data.slip.advice %>
+            </h2>
+        
+            <%}%>
+
+
+            <%if (locals.error) {%>
+              <div id="tag-error" class="tag-error">
+                <%=error%>
+              </div>
+              <%}%>
+            </div>
+</section>
+</body>
+</html>
