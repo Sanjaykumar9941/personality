@@ -10,7 +10,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     padding: 45px;
-    font-size: 4rem;
+    font-size: 3rem;
 color:chartreuse;
    
     }
@@ -62,7 +62,7 @@ margin: 0%;
             justify-items: center;
             justify-content: center;
             margin: 100px;
-            font-size: 2rem;
+            font-size: 1rem;
             
             color: yellow;
             -webkit-box-flex: below 1px linear-gradiant(transparent);
